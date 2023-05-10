@@ -1,0 +1,8 @@
+<svelte:head>
+<link rel="canonical" href="https://voldmc.com/staff">
+<meta name="robots" content="all">
+<meta name="keywords" content="VoldMc,VoldMc Staff">
+<meta name="description" content="VoldMc Staff">
+<title>VoldMc | Staff</title>
+</svelte:head>
+<div class="content"><div class="px-4 py-5 my-5 text-center"><h1 class="fw-light">Персонал</h1><div class="col-lg-6 mx-auto"><div class="modal fade" id="playsus" tabindex="-1" aria-labelledby="playsus-profile" style="display:none" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h2 class="modal-title fs-5" id="playsus-profile">Playsus_user | Profile</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><button class="btn btn-danger me-2"><a href="https://uk.namemc.com/profile/playsus_user.1" title="NameMc | Playsus_user" rel="nofollow" class="nav-link">Namemc</a></button></div><div class="modal-footer"><button class="btn btn-danger me-2" type="button" data-bs-dismiss="modal">Close</button></div></div></div></div><h2 class="lead">Web Разработчики</h2><button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#playsus"><img src="https://visage.surgeplay.com/full/512/947367e1157d4f43a6fbf40d09672673" width="158" height="256" alt="Playsus_user"></button><h2 class="lead">Разработчики Сервера</h2><button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#playsus"><img src="https://visage.surgeplay.com/full/256/947367e1157d4f43a6fbf40d09672673" width="158" height="256" alt="Playsus_user"></button><div class="d-grid gap-2 d-sm-flex justify-content-sm-center"></div></div></div></div>

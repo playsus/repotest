@@ -1,0 +1,56 @@
+{
+    "name": "VoldMc App",
+    "short_name": "VoldMc App",
+    "description": "VoldMc App",
+    "display": "minimal-ui",
+    "dir": "auto",
+    "lang": "uk",
+    "start_url": "/",
+    "scope": "/",
+    "id": "/",
+    "theme_color": "#ff9800",
+    "background_color": "#ff9800",
+    "orientation": "any",
+    "prefer_related_applications": false,
+    "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
+    "icons": [
+      { "src": "img/manifest-icon-96x96.webp", "sizes": "96x96", "type": "image/webp", "purpose": "any" },
+      { "src": "img/manifest-icon-128x128.webp", "sizes": "128x128", "type": "image/webp", "purpose": "any" },
+      { "src": "img/manifest-icon-144x144.webp", "sizes": "144x144", "type": "image/webp", "purpose": "any" },
+      { "src": "img/manifest-icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+      ],
+    "shortcuts": [
+        { "name": "Главная", "short_name": "Главная", "description": "Главная", "url": "/", "icons": [{ "src": "img/home.webp", "sizes": "128x128", "purpose": "any" }] },
+        { "name": "Правила", "short_name": "Правила", "description": "Правила", "url": "rules", "icons": [{ "src": "img/rules.webp", "sizes": "128x128", "purpose": "any" }] },
+        { "name": "Голосования", "short_name": "Голосования", "description": "Голосования", "url": "vote", "icons": [{ "src": "img/vote.webp", "sizes": "128x128", "purpose": "any" }] },
+        { "name": "Магазин", "short_name": "Магазин", "description": "Магазин", "url": "https://voldmc-store.tebex.io", "icons": [{ "src": "img/store.webp", "sizes": "128x128", "purpose": "any" }] }
+        ],
+    "screenshots": [{ "src": "img/Background.webp", "sizes": "1920x1080", "type": "image/webp", "description": "Screenshot" }],
+    "categories": [
+      "games",
+      "navigation"
+    ],
+    "features": [
+      "Cross Platform",
+      "fast",
+      "simple"
+    ],
+    "related_applications": [
+      { "platform": "play", "url": "https://voldmc.com", "id": "com.voldmc.app" },
+      { "platform": "itunes", "url": "https://voldmc.com" }
+      ],
+      "protocol_handlers": [
+      { "protocol": "web+tea", "url": "/?tea=%s" },
+      { "protocol": "web+coffee", "url": "/?coffee=%s" },
+      { "protocol": "web+jngl", "url": "/?jngl=%s" },
+      { "protocol": "web+jnglstore", "url": "/?jnglstore=%s" }
+      ],
+    "display_override": [
+      "minimal-ui",
+      "fullscreen",
+      "browser",
+      "standalone",
+      "window-controls-overlay"
+    ],
+    "share_target": { "action": "/", "method": "POST", "enctype": "multipart/form-data", "params": { "title": "VoldMc", "text": "ShareWebApp", "url": "https://voldmc.com" } }
+}
